@@ -12562,6 +12562,7 @@ textarea.form-control {
   min-height: 500px;
   background: url(../imgs/header.jpg) no-repeat center center fixed;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
 }
 
@@ -12638,6 +12639,7 @@ textarea.form-control {
 
 @media (max-width: 767.98px) {
   .header .shape svg {
+    background-image: url('../imgs/header.jpg');
     bottom: 0;
   }
 }
