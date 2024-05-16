@@ -12639,7 +12639,7 @@ textarea.form-control {
 
 @media (max-width: 767.98px) {
   .header .shape svg {
-    background-image: url('../imgs/header.jpg');
+    /* background-image: url('../imgs/header.jpg'); */
     bottom: 0;
   }
 }
