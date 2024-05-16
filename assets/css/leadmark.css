@@ -601,7 +601,16 @@ pre code {
   .hidemobile {
     display: none !important;
   }
-}
+  .header {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    background: url(../imgs/header.jpg) no-repeat center center fixed !important ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    }
+  }
 
 @media (min-width: 576px) {
   .container {
