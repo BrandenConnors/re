@@ -12555,7 +12555,7 @@ textarea.form-control {
   }
   .footer {
     position: relative;
-    background: url(../imgs/section-new-small.jpg) no-repeat center top fixed !important;
+    background: url('../imgs/section-new-small.jpg') no-repeat center top fixed !important;
     background-size: cover;
     background-position: center;
     overflow: hidden;
