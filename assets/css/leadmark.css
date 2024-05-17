@@ -12543,6 +12543,12 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 768px) {
+  .header {
+      background-image: url('../imgs/header1.jpg');
+  }
+}
+
 .header {
   position: relative;
   height: 100vh;
