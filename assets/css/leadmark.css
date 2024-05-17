@@ -12548,10 +12548,16 @@ textarea.form-control {
     position: relative;
     height: 100vh;
     min-height: 500px;
-      background: url('../imgs/header1.jpg') !important;
+      background: url('../imgs/header.jpg')no-repeat center top fixed !important;
       background-size: cover;
       background-position: center;
       overflow: hidden;
+  }
+  .footer {
+    position: relative;
+    background: url(../imgs/section-new-1.jpg) no-repeat center top fixed !important;
+    background-size: cover;
+    color: #fff;
   }
 }
 
