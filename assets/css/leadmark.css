@@ -12548,14 +12548,14 @@ textarea.form-control {
     position: relative;
     height: 100vh;
     min-height: 500px;
-      background: url('../imgs/header.jpg')no-repeat center fixed !important;
+      background: url('../imgs/header.jpg')no-repeat center top fixed !important;
       background-size: cover;
-      background-position: bottom;
+      background-position: center;
       overflow: hidden;
   }
   .footer {
     position: relative;
-    background: url(../imgs/section-new-1.jpg) no-repeat bottom fixed !important;
+    background: url(../imgs/section-new-1.jpg) no-repeat bottom center top fixed !important;
     background-size: cover;
     background-position: right;
     color: #fff;
