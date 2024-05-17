@@ -15,7 +15,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #1b1b1b;
-  --primary: #ff6e42;
+  --primary: #1098e7;
   --secondary: #6c757d;
   --success: #6ab04c;
   --info: #1289A7;
@@ -12436,12 +12436,17 @@ textarea.form-control {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff5a29;
+  background: #1098e7 !important;
   border-radius: 20px;
 }
+* {
+  scrollbar-width: thick;
+  scrollbar-color: #1098e7 #f1f1f1;
+}
+
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff6e42;
+  background: #1098e7;
 }
 
 .table.v-align-center th,
@@ -12553,12 +12558,11 @@ textarea.form-control {
       background-position: center;
       overflow: hidden;
   }
+
   .footer {
     position: relative;
     background: url('../imgs/section-new-small.jpg') no-repeat center top fixed !important;
     background-size: cover;
-    background-position: center;
-    overflow: hidden;
   }
 }
 
