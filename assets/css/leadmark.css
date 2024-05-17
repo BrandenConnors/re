@@ -12545,7 +12545,13 @@ textarea.form-control {
 
 @media (max-width: 768px) {
   .header {
-      background-image: url('../imgs/header1.jpg');
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+      background: url('../imgs/header1.jpg') !important;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
   }
 }
 
