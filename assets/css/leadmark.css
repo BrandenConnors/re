@@ -12557,6 +12557,7 @@ textarea.form-control {
     position: relative;
     background: url(../imgs/section-new-1.jpg) no-repeat center top fixed !important;
     background-size: cover;
+    background-position: center;
     color: #fff;
   }
 }
